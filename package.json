@@ -1,0 +1,35 @@
+{
+  "name": "project",
+  "version": "1.0.0",
+  "description": "nytreact",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/seytorin/nyt-react-native.git"
+  },
+  "keywords": [
+    "react"
+  ],
+  "author": "Sharif",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/seytorin/nyt-react-native/issues"
+  },
+  "homepage": "https://github.com/seytorin/nyt-react-native#readme",
+  "dependencies": {
+    "axios": "^0.15.2",
+    "babel-core": "^6.18.2",
+    "express": "^4.14.0",
+    "mongoose": "^4.6.6",
+    "morgan": "^1.7.0",
+    "react": "^15.3.2",
+    "react-dom": "^15.3.2"
+  },
+  "devDependencies": {
+    "webpack": "^1.13.3"
+  }
+}
